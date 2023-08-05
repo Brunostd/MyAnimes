@@ -72,9 +72,11 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1")
     implementation("androidx.compose.runtime:runtime-livedata:1.4.3")
+    implementation("androidx.fragment:fragment-ktx:1.6.1")
+
+    //MediaPlayers
     implementation("com.google.android.exoplayer:exoplayer:2.16.1")
     implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
-    implementation("androidx.fragment:fragment-ktx:1.6.1")
 
     //Koin
     implementation("io.insert-koin:koin-androidx-compose:3.4.6")
